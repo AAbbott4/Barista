@@ -18,20 +18,19 @@ const hotOptions = [
   "Pour Over",
   "Moka Pot",
   "Aeropress",
+  "Espresso",
 ];
 
-console.log(`Hot Options: `, hotOptions);
+// console.log(`Hot Options: `, hotOptions);
 
 const listParent = document.getElementById("hot1");
 
-console.log(`listParent: `, listParent);
+// console.log(`listParent: `, listParent);
 
 let string = "";
 
-hotOptions.forEach((string) => {
-  string += `<p>${string}</p>`;
-});
+for (let i = 0; i < hotOptions.length; i++) {
+  string = string + "<p>" + hotOptions[i] + "</p>";
+}
 
-console.log(`String: `, string);
-
-listParent.innerHtml = string;
+listParent.innerHTML += string;
