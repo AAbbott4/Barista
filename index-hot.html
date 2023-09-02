@@ -11,20 +11,56 @@
     <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon"> -->
   </head>
   <body>
-    <main class="main-hot">
+    <main>
       <h1>HOT</h1>
-      <p class="page-title hot-text">
-        Which hot beverage would you like to make?
-      </p>
-      <div id="hot1" class="hot-options">
-        <!-- <p>Drip</p>
-        <p>French Press</p>
+      <p class="page-title">Which hot beverage would you like to make?</p>
+      <div id="hot1">
+        <p>Drip</p>
+        <p><a href="./r-frenchpress.html">French Press</a></p>
+        <!-- use coffee-bullet.png image as a buttet point link to each recipe -->
         <p>Chemix</p>
         <p>Pour Over</p>
         <p>Moka Pot</p>
         <p>Aeropress</p>
-        <p><a href="index-espresso.html">Espresso</a></p> -->
+        <p>Wacaco Picopresso</p>
+        <a href="./index-espresso.html">Espresso</a>
       </div>
+      <label for="hot-coffee">Hot Options:</label>
+      <select
+        class="hot-drink-select"
+        name="hot-coffee"
+        id="hot-coffee"
+        style="margin-top: 20px"
+        required
+      >
+        <optgroup id="hot-drinks" label="Hot Drinks">
+          <option>Drip</option>
+          <option><a href="./r-frenchpress.html">French Press</a></option>
+          <!-- use coffee-bullet.png image as a buttet point link to each recipe -->
+          <option>Chemix</option>
+          <option>Pour Over</option>
+          <option>Moka Pot</option>
+          <option>Aeropress</option>
+          <option>Wacaco Picopresso</option>
+          <option><a href="./index-espresso.html">Espresso</a></option>
+        </optgroup>
+        <optgroup label="Cold Drinks">
+          <option>Iced Coffee</option>
+          <option>Iced Latte</option>
+          <option>Iced Macchiato</option>
+          <option>Cold Brew</option>
+        </optgroup>
+      </select>
+      <!-- Demo from W3 Schools text input -->
+      <!-- <h1>The input element</h1>
+
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form> -->
     </main>
     <script src="main.js"></script>
   </body>

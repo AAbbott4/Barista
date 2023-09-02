@@ -32,3 +32,9 @@
   font-size: 30px;
 }
 /* styles for list */
+select {
+  background-color: #fff;
+  border: 1px solid black; /* This is the same as border-color: black; border-width: 1px; border-style: solid; */
+  border-radius: 8px;
+  padding: 5px;
+}

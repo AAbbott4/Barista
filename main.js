@@ -23,18 +23,18 @@ const hotOptions = [
 
 // console.log(`Hot Options: `, hotOptions);
 
-const listParent = document.getElementById("hot1");
+// const listParent = document.getElementById("hot1");
 
-console.log(`listParent: `, listParent);
+// console.log(`listParent: `, listParent);
 
-let string = "";
+// let string = "";
 
-console.log(`hotOptions length: `, hotOptions.length);
+// console.log(`hotOptions length: `, hotOptions.length);
 
-for (let i = 0; i < hotOptions.length; i++) {
-  string = string + "<p>" + hotOptions[i] + "</p>";
+// for (let i = 0; i < hotOptions.length; i++) {
+//   string = string + "<p class=''>" + hotOptions[i] + "</p>";
 
-  // console.log(`String: `, string);
-}
+//   // console.log(`String: `, string);
+// }
 
-listParent.innerHTML += string;
+// listParent.innerHTML += string;
