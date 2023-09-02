@@ -25,12 +25,16 @@ const hotOptions = [
 
 const listParent = document.getElementById("hot1");
 
-// console.log(`listParent: `, listParent);
+console.log(`listParent: `, listParent);
 
 let string = "";
 
+console.log(`hotOptions length: `, hotOptions.length);
+
 for (let i = 0; i < hotOptions.length; i++) {
   string = string + "<p>" + hotOptions[i] + "</p>";
+
+  // console.log(`String: `, string);
 }
 
 listParent.innerHTML += string;
