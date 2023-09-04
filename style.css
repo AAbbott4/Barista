@@ -2,3 +2,27 @@
 #hot1{color:darkgoldenrod}
 #cold1{color:peru}
 #espresso1{color:chocolate}
+
+img[src*=bullet] {
+    width: 20px;
+    height: 16px;
+}
+
+.fpress {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+td:hover {
+    background-color:aqua;
+}
+
+h1, p, td {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
