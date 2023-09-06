@@ -15,10 +15,6 @@ img[src*=bullet] {
     
 }
 
-td:hover {
-    background-color:aqua;
-}
-
 h1, p, td {
     text-align: center;
 }
@@ -27,13 +23,27 @@ table {
     margin: 0 auto;
 }
 
-.aff1 td {
-    border: 2px outset #1FCBDB;
+.affogato td {
+    border: 2px outset #05A8AA;
     border-radius: 2px;
 }
 
-.affogato {
-    background-image: url(images/affogato-bg.jpeg);
-    height: 500px;
-    opacity: 0.3;
+
+.aff-header {
+    background-image: url("images/affogato-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.aff-header h1 {
+    background-color: #05A8AA;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    padding: 10px;
+    margin: 0 auto;
 }
