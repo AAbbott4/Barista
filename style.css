@@ -1,7 +1,4 @@
 .page-title{color:cornflowerblue}
-#hot1{color:darkgoldenrod}
-#cold1{color:peru}
-#espresso1{color:chocolate}
 
 img[src*=bullet] {
     width: 20px;
@@ -21,6 +18,15 @@ h1, p, td {
 
 table {
     margin: 0 auto;
+}
+
+.scrollmain {
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+    
 }
 
 .aeropress td {
