@@ -29,6 +29,24 @@ table {
     
 }
 
+.slidertag {
+    text-align: center;
+}
+    
+.slider-shot {
+    width: 42%;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.7;
+    height: 23px;
+    border: 0;
+    cursor: pointer;
+}
+    
+.slider-shot:hover {
+    opacity: 1; 
+}
+
 .aeropress td {
     border: 2px outset #05A8AA;
     border-radius: 2px;
