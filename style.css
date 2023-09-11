@@ -480,11 +480,14 @@ table {
 }
 
 
-.pour-header {
+.pour-header-body {
     background-image: url("images/pourover-bg.jpeg");
     background-position: center;
     background-size: cover;
-    height: 400px;
+    /* height: 400px;
+    position: sticky;
+    top: 0;
+    z-index: -1; */
 }
 
 .pour-header h1 {
@@ -498,3 +501,24 @@ table {
     padding: 10px;
     margin: 0 auto;
 }
+
+
+/* .recipe-header {
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.recipe-header.pour {background img}
+
+.recipe-header__title {
+    background-color: #05A8AA;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    padding: 10px;
+    margin: 0 auto;
+} */
