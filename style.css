@@ -1,8 +1,17 @@
-.page-title{color:cornflowerblue}
+html {
+    height: 100%;
+}
+
+.page-title{color: #12343B}
 
 img[src*=bullet] {
     width: 20px;
     height: 16px;
+}
+
+.index1 {
+    background-image: linear-gradient(#C89666, #E1B382);
+    background-attachment: fixed;
 }
 
 main {
@@ -43,7 +52,7 @@ table {
 }
 
 .recipe-ratio td {
-    border: 2px outset #05A8AA;
+    border: 2px outset #2D545E;
     border-radius: 2px;
 }
 
