@@ -21,11 +21,7 @@ table {
     width: 600px;
     height: 200px;
     text-align: center;
-    margin: auto;
-    overflow: auto;
-    position: relative;
-    top: 400px;
-    
+    margin: auto;    
 }
 
 .slidertag {
@@ -46,470 +42,18 @@ table {
     opacity: 1; 
 }
 
-.aeropress td {
+.recipe-ratio td {
     border: 2px outset #05A8AA;
     border-radius: 2px;
 }
 
-
-.aero-header {
-    background-image: url("images/aeropress-bg.jpeg");
+.recipe-header {
     background-position: center;
     background-size: cover;
     height: 400px;
-}
-
-.aero-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.affogato td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.aff-header {
-    background-image: url("images/affogato-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.aff-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.americano td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.amer-header {
-    background-image: url("images/americano-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.amer-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.cappuccino td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.capp-header {
-    background-image: url("images/cappuccino-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.capp-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.chemex td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.chem-header {
-    background-image: url("images/chemex-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.chem-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.coldbrew td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.cb-header {
-    background-image: url("images/coldbrew-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.cb-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.drip td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.drip-header {
-    background-image: url("images/drip-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.drip-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.espresso td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.espresso-header {
-    background-image: url("images/bottomless-espresso-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.espresso-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.flatwhite td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.fw-header {
-    background-image: url("images/flatwhite-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.fw-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.frenchpress td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.fp-header {
-    background-image: url("images/frenchpress-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-}
-
-.fp-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.icedcoffee td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.icedc-header {
-    background-image: url("images/iced-coffee-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.icedc-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.icedlatte td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.icedl-header {
-    background-image: url("images/icedlatte-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.icedl-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.icedmacchiato td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.icedm-header {
-    background-image: url("images/icedmacchiato-bg.webp");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.icedm-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.latte td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.latte-header {
-    background-image: url("images/latte-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.latte-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.macchiato td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.macch-header {
-    background-image: url("images/macchiato-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.macch-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.mocha td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.mocha-header {
-    background-image: url("images/mocha-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.mocha-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.mokapot td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.moka-header {
-    background-image: url("images/mokapot-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.moka-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.pourover td {
-    border: 2px outset #05A8AA;
-    border-radius: 2px;
-}
-
-
-.pour-header-body {
-    background-image: url("images/pourover-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    /* height: 400px;
     position: sticky;
     top: 0;
-    z-index: -1; */
 }
-
-.pour-header h1 {
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-
-/* .recipe-header {
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.recipe-header.pour {background img}
 
 .recipe-header__title {
     background-color: #05A8AA;
@@ -521,4 +65,77 @@ table {
     width: 68%;
     padding: 10px;
     margin: 0 auto;
-} */
+}
+
+
+.recipe-header.aero {
+    background-image: url("images/aeropress-bg.jpeg");
+}
+
+.recipe-header.affo {
+    background-image: url("images/affogato-bg.jpeg");
+}
+
+.recipe-header.amer {
+    background-image: url("images/americano-bg.jpeg");
+}
+
+.recipe-header.capp {
+    background-image: url("images/cappuccino-bg.jpeg");
+}
+
+.recipe-header.chem {
+    background-image: url("images/chemex-bg.jpeg");
+}
+
+.recipe-header.coldb {
+    background-image: url("images/coldbrew-bg.jpeg");
+}
+
+.recipe-header.drip {
+    background-image: url("images/drip-bg.jpeg");
+}
+
+.recipe-header.esp {
+    background-image: url("images/bottomless-espresso-bg.jpeg");
+}
+
+.recipe-header.flat {
+    background-image: url("images/flatwhite-bg.jpeg");
+}
+
+.recipe-header.french {
+    background-image: url("images/frenchpress-bg.jpeg");
+}
+
+.recipe-header.icedc {
+    background-image: url("images/iced-coffee-bg.jpeg");
+}
+
+.recipe-header.icedl {
+    background-image: url("images/icedlatte-bg.jpeg");
+}
+
+.recipe-header.icedm {
+    background-image: url("images/icedmacchiato-bg.webp");
+}
+
+.recipe-header.latte {
+    background-image: url("images/latte-bg.jpeg");
+}
+
+.recipe-header.macch {
+    background-image: url("images/macchiato-bg.jpeg");
+}
+
+.recipe-header.mocha {
+    background-image: url("images/mocha-bg.jpeg");
+}
+
+.recipe-header.moka {
+    background-image: url("images/mokapot-bg.jpeg");
+}
+
+.recipe-header.pour {
+    background-image: url("images/pourover-bg.jpeg");
+}
