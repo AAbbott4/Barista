@@ -76,6 +76,7 @@ table {
     margin: 0 auto;
 }
 
+/* swap images for smoother clipart */
 
 .recipe-header.aero {
     background-image: url("images/aeropress-bg.jpeg");
