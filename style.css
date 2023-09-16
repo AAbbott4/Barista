@@ -14,6 +14,11 @@ img[src*=bullet] {
     background-attachment: fixed;
 }
 
+.index2 {
+    background-image: url("images/BearInManhattan.png");
+    background-size: 100% auto;
+}
+
 main {
     position: relative;
 }
