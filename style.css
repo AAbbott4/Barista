@@ -2,11 +2,33 @@ html {
     height: 100%;
 }
 
-.page-title{color: #12343B}
+.page__title{
+    color: #FFF;
+}
 
 img[src*=bullet] {
     width: 20px;
     height: 16px;
+}
+
+.sub__title {
+    background-color: #2D545E;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.main__title {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 40px;
 }
 
 .index1 {
@@ -25,6 +47,10 @@ main {
 
 h1, p, td {
     text-align: center;
+}
+
+th.main__th {
+    color: #FFF;
 }
 
 table {
@@ -70,7 +96,7 @@ table {
 }
 
 .recipe-header__title {
-    background-color: #05A8AA;
+    background-color: #2D545E;
     color: #FFF;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
@@ -81,76 +107,75 @@ table {
     margin: 0 auto;
 }
 
-/* swap images for smoother clipart */
 
 .recipe-header.aero {
-    background-image: url("images/aeropress-bg.jpeg");
+    background-image: url("images/aeropress-bg.png");
 }
 
 .recipe-header.affo {
-    background-image: url("images/affogato-bg.jpeg");
+    background-image: url("images/affogatto-bg.png");
 }
 
 .recipe-header.amer {
-    background-image: url("images/americano-bg.jpeg");
+    background-image: url("images/americano-bg.png");
 }
 
 .recipe-header.capp {
-    background-image: url("images/cappuccino-bg.jpeg");
+    background-image: url("images/cappuccino-bg.png");
 }
 
 .recipe-header.chem {
-    background-image: url("images/chemex-bg.jpeg");
+    background-image: url("images/chemex-bg.png");
 }
 
 .recipe-header.coldb {
-    background-image: url("images/coldbrew-bg.jpeg");
+    background-image: url("images/coldbrew-bg.png");
 }
 
 .recipe-header.drip {
-    background-image: url("images/drip-bg.jpeg");
+    background-image: url("images/drip-bg.png");
 }
 
 .recipe-header.esp {
-    background-image: url("images/bottomless-espresso-bg.jpeg");
+    background-image: url("images/espresso-bg.png");
 }
 
 .recipe-header.flat {
-    background-image: url("images/flatwhite-bg.jpeg");
+    background-image: url("images/flatwhite-bg.png");
 }
 
 .recipe-header.french {
-    background-image: url("images/frenchpress-bg.jpeg");
+    background-image: url("images/frenchpress-bg.png");
 }
 
 .recipe-header.icedc {
-    background-image: url("images/iced-coffee-bg.jpeg");
+    background-image: url("images/icedcoffee-bg.png");
 }
 
 .recipe-header.icedl {
-    background-image: url("images/icedlatte-bg.jpeg");
+    background-image: url("images/icedlatte-bg.png");
 }
 
 .recipe-header.icedm {
-    background-image: url("images/icedmacchiato-bg.webp");
+    background-image: url("images/icedmacchiato-bg.png");
 }
 
 .recipe-header.latte {
-    background-image: url("images/latte-bg.jpeg");
+    background-image: url("images/latte-bg.png");
 }
 
 .recipe-header.macch {
-    background-image: url("images/macchiato-bg.jpeg");
+    background-image: url("images/macchiato-bg.png");
 }
 
 .recipe-header.mocha {
-    background-image: url("images/mocha-bg.jpeg");
+    background-image: url("images/mocha-bg.png");
 }
 
 .recipe-header.moka {
-    background-image: url("images/mokapot-bg.jpeg");
+    background-image: url("images/mokapot-bg.png");
 }
 
 .recipe-header.pour {
-    background-image: url("images/pourover-bg.jpeg");
+    background-image: url("images/pourover-bg.png");
 }
