@@ -1,5 +1,36 @@
+:root {
+    --darkblue: #2D545E;
+
+
+    /* Sand Tan #E1B382
+    Sand Tan Shadow #C89666
+    Night Blue #2D545
+    Night Blue Shadow #12343B */
+}
+
+
 html {
     height: 100%;
+}
+
+.navbar {
+    display: flex;
+    
+}
+
+a:visited {
+    color: var(--darkblue);
+}
+
+.navbaritems{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
+
+.navbarbrand {
+    width: 50%;
 }
 
 .page__title{
@@ -12,7 +43,7 @@ img[src*=bullet] {
 }
 
 .sub__title {
-    background-color: #2D545E;
+    background-color: var(--darkblue);
     color: #FFF;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
