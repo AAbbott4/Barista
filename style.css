@@ -1,13 +1,9 @@
 :root {
     --darkblue: #2D545E;
-
-
-    /* Sand Tan #E1B382
-    Sand Tan Shadow #C89666
-    Night Blue #2D545
-    Night Blue Shadow #12343B */
+    --darkblueshadow: #12343B ;
+    --sand: #E1B382;
+    --sandshadow: #C89666;
 }
-
 
 html {
     height: 100%;
@@ -15,11 +11,14 @@ html {
 
 .navbar {
     display: flex;
-    
+}
+
+a {
+    color: var(--darkblue);
 }
 
 a:visited {
-    color: var(--darkblue);
+    color: var(--darkblueshadow);
 }
 
 .navbaritems{
