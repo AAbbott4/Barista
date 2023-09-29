@@ -10,14 +10,26 @@ html {
 }
 
 .navbar {
-    display: flex;
+    background-color: var(--sandshadow);
+    overflow: hidden;
 }
 
-a {
+.navbar a {
+    float: left;
     color: var(--darkblue);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-a:visited {
+.navbar a:hover {
+    background-color: var(--darkblueshadow);
+    color: white;
+}
+
+.navbar a.active {
+    background-color: var(--sand);
     color: var(--darkblueshadow);
 }
 
