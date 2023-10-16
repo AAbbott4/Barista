@@ -1,245 +1,253 @@
-
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 * {
-    margin: 0;
-  }
+  margin: 0;
+}
 body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
-input, button, textarea, select {
-    font: inherit;
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
-p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
-
-
-
 
 :root {
-    --darkblue: #2D545E;
-    --darkblueshadow: #12343B ;
-    --sand: #E1B382;
-    --sandshadow: #C89666;
+  --darkblue: #2d545e;
+  --darkblueshadow: #12343b;
+  --sand: #e1b382;
+  --sandshadow: #c89666;
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 .navbar {
-    background-color: var(--sandshadow);
-    overflow: hidden;
+  background-color: var(--sandshadow);
+  overflow: hidden;
 }
 
 .navbar a {
-    float: left;
-    color: var(--darkblue);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
+  float: left;
+  color: var(--darkblue);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .navbar a:hover {
-    background-color: var(--darkblueshadow);
-    color: white;
+  background-color: var(--darkblueshadow);
+  color: white;
 }
 
 .navbar a.active {
-    background-color: var(--sand);
-    color: var(--darkblueshadow);
+  background-color: var(--sand);
+  color: var(--darkblueshadow);
 }
 
-.navbaritems{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    column-gap: 4rem;
+.navbaritems {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 4rem;
 }
 
 .navbarbrand {
-    width: 50%;
+  width: 50%;
 }
 
-.page__title{
-    color: #FFF;
+.page__title {
+  color: #fff;
 }
 
-img[src*=bullet] {
-    width: 20px;
-    height: 16px;
+img[src*="bullet"] {
+  width: 20px;
+  height: 16px;
 }
 
 .sub__title {
-    background-color: var(--darkblue);
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
+  background-color: var(--darkblue);
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .main__title {
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 350;
-    line-height: 40px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 350;
+  line-height: 40px;
 }
 
 .index1 {
-    background-image: linear-gradient(#C89666, #E1B382);
-    background-attachment: fixed;
+  background-image: linear-gradient(#c89666, #e1b382);
+  background-attachment: fixed;
 }
 
 .index2 {
-    background-image: url("images/BearInManhattan.png");
-    background-size: 100% auto;
+  background-image: url("images/BearInManhattan.png");
+  background-size: 100% auto;
 }
 
 main {
-    position: relative;
+  position: relative;
 }
 
-h1, p, td {
-    text-align: center;
+h1,
+p,
+td {
+  text-align: center;
 }
 
 th.main__th {
-    color: #FFF;
+  color: #fff;
 }
 
 table {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .scrollmain {
-    width: 600px;
-    height: 200px;
-    text-align: center;
-    margin: auto;    
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
 }
 
 .slidertag {
-    text-align: center;
+  text-align: center;
 }
-    
+
 .slider-shot {
-    width: 42%;
-    text-align: center;
-    margin: 0 auto;
-    opacity: 0.7;
-    height: 23px;
-    border: 0;
-    cursor: pointer;
+  width: 42%;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.7;
+  height: 23px;
+  border: 0;
+  cursor: pointer;
 }
-    
+
 .slider-shot:hover {
-    opacity: 1; 
+  opacity: 1;
 }
 
 .recipe-ratio td {
-    border: 2px outset #2D545E;
-    border-radius: 2px;
+  border: 2px outset #2d545e;
+  border-radius: 2px;
 }
 
 .recipe-header {
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    position: sticky;
-    top: 0;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: sticky;
+  top: 0;
 }
 
 .recipe-header__title {
-    background-color: #2D545E;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-    padding: 10px;
-    margin: 0 auto;
+  background-color: #2d545e;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding: 10px;
+  margin: 0 auto;
 }
 
-
 .recipe-header.aero {
-    background-image: url("images/aeropress-bg.png");
+  background-image: url("images/aeropress-bg.png");
 }
 
 .recipe-header.affo {
-    background-image: url("images/affogatto-bg.png");
+  background-image: url("images/affogatto-bg.png");
 }
 
 .recipe-header.amer {
-    background-image: url("images/americano-bg.png");
+  background-image: url("images/americano-bg.png");
 }
 
 .recipe-header.capp {
-    background-image: url("images/cappuccino-bg.png");
+  background-image: url("images/cappuccino-bg.png");
 }
 
 .recipe-header.chem {
-    background-image: url("images/chemex-bg.png");
+  background-image: url("images/chemex-bg.png");
 }
 
 .recipe-header.coldb {
-    background-image: url("images/coldbrew-bg.png");
+  background-image: url("images/coldbrew-bg.png");
 }
 
 .recipe-header.drip {
-    background-image: url("images/drip-bg.png");
+  background-image: url("images/drip-bg.png");
 }
 
 .recipe-header.esp {
-    background-image: url("images/espresso-bg.png");
+  background-image: url("images/espresso-bg.png");
 }
 
 .recipe-header.flat {
-    background-image: url("images/flatwhite-bg.png");
+  background-image: url("images/flatwhite-bg.png");
 }
 
 .recipe-header.french {
-    background-image: url("images/frenchpress-bg.png");
+  background-image: url("images/frenchpress-bg.png");
 }
 
 .recipe-header.icedc {
-    background-image: url("images/icedcoffee-bg.png");
+  background-image: url("images/icedcoffee-bg.png");
 }
 
 .recipe-header.icedl {
-    background-image: url("images/icedlatte-bg.png");
+  background-image: url("images/icedlatte-bg.png");
 }
 
 .recipe-header.icedm {
-    background-image: url("images/icedmacchiato-bg.png");
+  background-image: url("images/icedmacchiato-bg.png");
 }
 
 .recipe-header.latte {
-    background-image: url("images/latte-bg.png");
+  background-image: url("images/latte-bg.png");
 }
 
 .recipe-header.macch {
-    background-image: url("images/macchiato-bg.png");
+  background-image: url("images/macchiato-bg.png");
 }
 
 .recipe-header.mocha {
-    background-image: url("images/mocha-bg.png");
+  background-image: url("images/mocha-bg.png");
 }
 
 .recipe-header.moka {
-    background-image: url("images/mokapot-bg.png");
+  background-image: url("images/mokapot-bg.png");
 }
 
 .recipe-header.pour {
-    background-image: url("images/pourover-bg.png");
+  background-image: url("images/pourover-bg.png");
 }

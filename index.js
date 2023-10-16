@@ -6,84 +6,71 @@
 
 /* 
 
-
-  
-
-
-
-
-
-
-
-
 // console.log(`TABLE OPTIONS = `, tableOptions);
 
 // console.log(coldOptionsTable);
 
-
-
-
-
-
 /* let var for sliders?
 
 also use the math operators for the table values? /= *= 
 */
 
-
-
-
-
-
 /* let var for sliders?
 
 also use the math operators for the table values? /= *= 
 */
-
-
 
 const coldOptions = [
-    { title: "Iced Coffee", href: "#icedcoffee" },
-    { title: "Iced Latte", href: "#icedlatte" },
-    { title: "Iced Macchiato", href: "#icedmacchiato" },
-    { title: "Cold Brew", href: "#coldbrew" },
+  { title: "Iced Coffee", href: "#icedcoffee" },
+  { title: "Iced Latte", href: "#icedlatte" },
+  { title: "Iced Macchiato", href: "#icedmacchiato" },
+  { title: "Cold Brew", href: "#coldbrew" },
 ];
 
 const hotOptions = [
-    { title: "Aeropress", href: "#aeropress" },
-    { title: "Chemex", href: "#chemex" },
-    { title: "Drip", href: "#drip" },
-    { title: "French Press", href: "#frenchpress" },
-    { title: "Mokapot", href: "#mokapot"},
-    { title: "Pour Over", href: "#pourover"},
-    { title: "Espresso", href: "#espresso"}
-  ];
+  { title: "Aeropress", href: "#aeropress" },
+  { title: "Chemex", href: "#chemex" },
+  { title: "Drip", href: "#drip" },
+  { title: "French Press", href: "#frenchpress" },
+  { title: "Mokapot", href: "#mokapot" },
+  { title: "Pour Over", href: "#pourover" },
+  { title: "Espresso", href: "#espresso" },
+];
 
-  const espressoOption = [
-    { title: "Espresso Shot", href: "#espressoshot"},
-    { title: "Affogato", href: "#affogato"},
-    { title: "Americano", href: "#americano"},
-    { title: "Cappuccino", href: "#cappuccino"},
-    { title: "Flat White", href: "#flatwhite"},
-    { title: "Latte", href: "#latte"},
-    { title: "Macchiato", href: "#macchiato"},
-    { title: "Mocha", href: "#mocha"},
-  ];
+const espressoOption = [
+  { title: "Espresso Shot", href: "#espressoshot" },
+  { title: "Affogato", href: "#affogato" },
+  { title: "Americano", href: "#americano" },
+  { title: "Cappuccino", href: "#cappuccino" },
+  { title: "Flat White", href: "#flatwhite" },
+  { title: "Latte", href: "#latte" },
+  { title: "Macchiato", href: "#macchiato" },
+  { title: "Mocha", href: "#mocha" },
+];
 
-  const coldOptionsTable = document.getElementById("drink__table");
+/* const coldOptionsTable = document.getElementById("drink__table");
 
-  console.log(coldOptionsTable); 
+console.log(coldOptionsTable);
 
-  let tableOptions = "";
-  const linkImgSrc = `./images/coffee-bullet.png`;
+let tableOptions = "";
+const linkImgSrc = `./images/coffee-bullet.png`;
 
-  coldOptions.forEach((item) => {
-    // item = item.title || item.href
-    const { title, href } = item;
-  
-    tableOptions += `<tr><td>${title}<a href='${href}'><img src=${linkImgSrc} /></a></td></tr>`;
-  });
+coldOptions.forEach((item) => {
+  // item = item.title || item.href
+  const { title, href } = item;
 
-  console.log(tableOptions);
+  tableOptions += `<tr><td>${title}<a href='${href}'><img src=${linkImgSrc} /></a></td></tr>`;
+});
 
-  coldOptionsTable.insertAdjacentHTML("beforeend", tableOptions);
+console.log(tableOptions);
+
+coldOptionsTable.insertAdjacentHTML("beforeend", tableOptions); */
+
+// for loop
+
+// Start of JavaScrpit file
+
+const parent = document.querySelector(".main-link__container");
+console.log(parent);
+const mainLink = document.querySelector(".link__container");
+console.log(mainLink);
