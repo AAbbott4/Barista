@@ -66,7 +66,7 @@ console.log(tableOptions);
 
 coldOptionsTable.insertAdjacentHTML("beforeend", tableOptions); */
 
-// for loop
+// for loop fill template
 
 // Start of JavaScrpit file
 
