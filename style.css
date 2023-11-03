@@ -108,8 +108,7 @@ img[src*="bullet"] {
 }
 
 .index2 {
-  background-image: url("images/BearInManhattan.png");
-  background-size: 100% auto;
+  background-color: var(--sandshadow);
 }
 
 main {
