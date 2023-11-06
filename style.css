@@ -38,6 +38,27 @@ html {
   height: 100%;
 }
 
+.main__index {
+  background-image: url(/images/stain1.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: left 10% top 15%;
+}
+
+.quote {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.quote__credit {
+  color: #12343b;
+  text-align: right;
+  margin-right: 5%;
+}
+
 .navbar {
   background-color: var(--sandshadow);
   overflow: hidden;
@@ -73,8 +94,15 @@ html {
   width: 50%;
 }
 
-.page__title {
-  color: #fff;
+ul {
+  display: flex;
+  list-style: none;
+  padding: 50px;
+}
+
+.img__links {
+  width: 150px;
+  height: 150px;
 }
 
 img[src*="bullet"] {
@@ -165,6 +193,8 @@ table {
   height: 400px;
   position: sticky;
   top: 0;
+  background-size: 400px;
+  background-repeat: no-repeat;
 }
 
 .recipe-header__title {
