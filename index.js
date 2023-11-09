@@ -18,7 +18,7 @@ also use the math operators for the table values? /= *=
 /* let var for sliders?
 
 also use the math operators for the table values? /= *= 
-*/
+
 
 const coldOptions = [
   { title: "Iced Coffee", href: "#icedcoffee" },
