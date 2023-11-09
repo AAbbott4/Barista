@@ -97,6 +97,7 @@ html {
 ul {
   display: flex;
   list-style: none;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
