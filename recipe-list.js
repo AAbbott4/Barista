@@ -34,33 +34,25 @@ if (window.location.href.includes("hot")) {
   document.addEventListener("DOMContentLoaded", buildRecipeLinks(hotOptions));
 } else if (window.location.href.includes("cold")) {
   document.addEventListener("DOMContentLoaded", buildRecipeLinks(coldOptions));
-} else if (window.location.href.includes("espresso")) {
-  document.addEventListener(
-    "DOMContentLoaded",
-    buildRecipeLinks(espressoOptions)
-  );
 }
 
-// let anchorLinks = `<a></a>`;
+let anchorLinks = `<a></a>`;
 
 console.log(`Hot options length: `, hotOptions.length);
 
-let banner = document.querySelector(".sub__title");
-
-// banner.addEventListener("click", test);
-
-function buildRecipeLinks(array) {
-  for (let i = 0; i < array.length; i++) {
-    console.log(`item: `, array[i]);
+function buildRecipeLinks(hotOptions) {
+  for (let i = 0; i < hotOptions.length; i++) {
+    console.log(`item: `, hotOptions[i]);
     //   const link = document.createElement("a");
-    //   const linkText = docuemnt.createTextNode(array[i].title);
+    //   const linkText = docuemnt.createTextNode(hotOptions[i].title);
 
-    let link = `<a href=${array[i].href} style="padding: 0.5rem; 0; color: #000; text-decoration: none;">${array[i].title} <img src="${array[i].imgSrc}" /></a>`;
-    //   a.href = array[i].href;
-    //   a.innerHTML = array[i].title;
+    let link = `<a href=${hotOptions[i].href} style="padding: 0.5rem; 0; color: #000; text-decoration: none;">${hotOptions[i].title} <img src="${hotOptions[i].imgSrc}" /></a>`;
+    //   a.href = hotOptions[i].href;
+    //   a.innerHTML = hotOptions[i].title;
     //   link.appendChild(linkText);
-  }
 
-  console.log(`Link: `, link);
-  listContainer.innerHTML += link;
+    console.log(`Link: `, link);
+    listContainer.innerHTML += link;
+  }
 }
+let banner = document.querySelector(".sub__title");
