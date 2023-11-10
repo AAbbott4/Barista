@@ -10,14 +10,12 @@
 
 // console.log(coldOptionsTable);
 
-/* let var for sliders?
 
-also use the math operators for the table values? /= *= 
-*/
 
-/* let var for sliders?
 
-also use the math operators for the table values? /= *= 
+
+/*
+
 
 
 const coldOptions = [
@@ -64,9 +62,8 @@ coldOptions.forEach((item) => {
 
 console.log(tableOptions);
 
-coldOptionsTable.insertAdjacentHTML("beforeend", tableOptions); */
-
-// for loop fill template
+coldOptionsTable.insertAdjacentHTML("beforeend", tableOptions); 
+*/
 
 // Start of JavaScrpit file
 

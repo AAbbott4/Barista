@@ -46,7 +46,7 @@ function buildRecipeLinks(hotOptions) {
     //   const link = document.createElement("a");
     //   const linkText = docuemnt.createTextNode(hotOptions[i].title);
 
-    let link = `<a href=${hotOptions[i].href} style="padding: 0.5rem; 0; color: #000; text-decoration: none;">${hotOptions[i].title} <img src="${hotOptions[i].imgSrc}" /></a>`;
+    let link = `<a href=${hotOptions[i].href} style="padding: 0.5rem; 0; color: #000; text-decoration: none;">${hotOptions[i].title}`;
     //   a.href = hotOptions[i].href;
     //   a.innerHTML = hotOptions[i].title;
     //   link.appendChild(linkText);
