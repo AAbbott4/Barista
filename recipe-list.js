@@ -34,6 +34,11 @@ if (window.location.href.includes("hot")) {
   document.addEventListener("DOMContentLoaded", buildRecipeLinks(hotOptions));
 } else if (window.location.href.includes("cold")) {
   document.addEventListener("DOMContentLoaded", buildRecipeLinks(coldOptions));
+} else if (window.location.href.includes("espresso")) {
+  document.addEventListener(
+    "DOMContentLoaded",
+    buildRecipeLinks(espressoOptions)
+  );
 }
 
 let anchorLinks = `<a></a>`;
